@@ -70,6 +70,10 @@ void q_short(int low, int high) {
 		//swap the pivot element with the element at index j
 		swap(low, j);
 	}
+
+	//recrusive call to sort the left sub array
+	q_short(low, j - 1);
+
 }
 
 
