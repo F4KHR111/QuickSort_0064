@@ -40,6 +40,9 @@ void q_short(int low, int high) {
 	
 	int temp;
 	int pivot, i, j;
+	if (low > high) {
+		return;
+	}
 
 }
 
