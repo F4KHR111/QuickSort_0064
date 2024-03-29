@@ -60,7 +60,10 @@ void q_short(int low, int high) {
 			cmp_count++;
 		}
 		cmp_count++;
-		
+		if (i < j) {
+			//swap the element at index i with the element at index j
+			swap(i, j);
+		}
 	}
 
 }
